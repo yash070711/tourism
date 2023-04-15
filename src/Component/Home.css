@@ -12,19 +12,7 @@
     animation-timing-function: linear;
     animation-direction: normal;
 } */
-.tourism-view {
-    background-image: url(./img/tourism-view.webp);
-    height: 350px;
-    width: 100%;
-    background-repeat: repeat;
-    animation: bannerbg 120s infinite linear;
-    position: absolute;
-    left: 0;
-    bottom: 10px;
-    z-index: 1;
-    animation-timing-function: linear;
-    animation-direction: reverse;
-}
+
 .s5{
     width: 350px;
     height: 350px;
@@ -37,7 +25,7 @@
 }
 .train {
     height: 60px;
-    width: 1644px;
+    width: 1400px;
     margin-top: 150px;
     /* background-repeat: repeat;
     position: absolute;
@@ -47,7 +35,8 @@
   
 }
 .bus {
-    height: 50px;
+    height: 60px;
+
 }
 .sea{
     width: 100vw;
@@ -55,4 +44,5 @@
 }
 .ship{
     margin-top: 50px;
+    height: 100px;
 }

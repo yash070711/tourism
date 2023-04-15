@@ -1,0 +1,40 @@
+.icons{
+    color: white;
+    margin-left: 50px;
+    
+}
+.icon1{
+    width: 250px;
+    height: 350px;
+}
+.Home-Form-Section{
+    border: 1px solid rgb(5, 5, 92);
+    height: 42vh;
+    background-color: rgb(5, 5, 92);
+    width: 100%;
+}
+
+.nav-icons-wrap {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.nav-icons-wrap li {
+    list-style: none;
+    /* width: 2.3rem; */
+    text-align: center;
+    position: relative;}
+.liItem{
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 1000ms;
+}
+.liItem:hover{
+  transform: translateY(-1.75rem);
+  
+}
+.nav-icons-wrap li:hover{
+  color: gold;
+}
