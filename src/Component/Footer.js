@@ -69,7 +69,7 @@ About Us
   </div>
     </div>
     <div class="grid-container">
-  <div> <p className='t1'>© 2022 IRCTC | All Right Reserved.</p>
+  <div> <p className='t1'>© 2023 IRCTC | All Right Reserved.</p>
   <p className='t1'>Browser Support IE10 and IE11 and Chrome 5.0 and above Version</p></div>
   <div>
     <img 

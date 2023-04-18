@@ -13,8 +13,8 @@ function Contact() {
     <div>
     <div class="r1">
         <div class="text-center blog-wrap-h2">
-            <h2 class="mt-0">CONTACT US </h2><br/>
-            </div><p>Just pack and go! Let leave your travel plan to travel experts!</p>
+            <p5 class="mt">CONTACT US </p5><br/>
+            </div><div><p>Just pack and go! Let leave your travel plan to travel experts!</p></div>
             <p class="text-success"></p><br/>
             <form novalidate="" class="ng-pristine ng-invalid ng-touched">
                 <input class="p" name="yourName" placeholder="Your Name" required="" type="text" pattern="/^[a-zA-Z][a-zA-Z ]{2,30}$/"></input>
@@ -28,7 +28,7 @@ function Contact() {
                                 <textarea class="p" maxlength="10000" name="message" placeholder="Message"></textarea>
                                 
     <div class="text-center">
-        <button class="btn" type="submit">Send Now <i class="fas fa-location-arrow ml-1"></i></button>
+        <button class="btn" type="submit">Send Now </button>
     </div>
     </form>
     </div>

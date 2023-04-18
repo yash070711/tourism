@@ -9,6 +9,7 @@ import {GiCruiser} from 'react-icons/gi'
 import {BsTrainFreightFrontFill} from 'react-icons/bs'
 import {GiIndianPalace} from 'react-icons/gi'
 import {GiElephantHead} from 'react-icons/gi'
+import NearMeIcon from '@mui/icons-material/NearMe';
 import "./Icons.css"
 function Icons() {
   return (
@@ -38,6 +39,15 @@ function Icons() {
             <li><GiElephantHead className="liItem"/><p>Golden Chariot</p></li>
           </ul>
         </div>
+        <div class="grid-container">
+        <div className='input'>
+          <input type='text' placeholder='Enter Origin/Destination City' className='text' /> 
+            <select class="con1" name="sector">
+              <option class="buttonsearch" value="Domestic">Domestic</option>
+          <option class="buttonsearch" value="International">International</option></select>
+          <button type='submit'  className='but'>Search <NearMeIcon className='ic'/></button>
+          </div>
+          </div>
     </div>
     </div>
   )

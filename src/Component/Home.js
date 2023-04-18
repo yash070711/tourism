@@ -13,11 +13,11 @@ function Home() {
                  <div style={{ 
   backgroundImage: `url(${hm1})`,
   backgroundRepeat: 'repeat',
-  height:'350px',
+  height:'360px',
   width:"100vw",
   
 }}>
-  <marquee scrollamount="7" direction="right"> <img 
+  <marquee scrollamount="5" direction="right"> <img 
            className='flight'
            src={im2}/>  </marquee>
      <marquee  scrollamount="15" direction="right">
@@ -29,9 +29,10 @@ function Home() {
   backgroundImage: `url(${im6})`,
   backgroundRepeat: 'repeat',
   width:"100vw",
+  height:'70px'
   
 }}>
-    <marquee scrollamount="10" direction="left"> <img 
+    <marquee scrollamount="7" direction="left"> <img 
            className='bus'
            src={im3}/>  </marquee>
     

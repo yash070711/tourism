@@ -1,20 +1,54 @@
-.header{
+.header {
+  height: 120px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  height: 90px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 1530px;
+}
+ 
+.header__optionLineOne {
+  font-size: 17px;
+  font-weight: 1500
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.logo1, .logo2, .logo3 ,.logo4{
-  height: 68px;
-  margin: auto 20px;
+.header__logo {
+  width: 150px;
+  margin: 0 20px;
+  margin-left: 70px;
 }
-.logo3{
+
+ .logo3{
+  width: 200px;
+height: 110px;
+} 
+
+.logo1{
+width: 100px;
+height: 90px;
+margin-left: 350px;
+} 
+.logo2{
+  width: 100px;
+height: 90px;
+margin-right: 350px;
+}
+.logo4{
   margin-right: 300px;
-
 }
-.subLogo{
+.list{
+  margin-left: 300px;
+  margin-top: 40px;
+}
+/* .subLogo{
   display: flex;
   justify-content: flex-start;
 }
@@ -29,115 +63,56 @@
 }
 li{
   margin: auto 1rem;
-}
-/* .backImg{
-  position: relative;
-  overflow: hidden;
-  background-image: url("../assets/tourism-view.png");
-  margin-top: none;
-  height:28vh;
-  padding: none;
-  background-position: 0px;
-  animation: bgMove 50s linear infinite;
 } */
-/* @keyframes bgMove{
-  0%{
-      background-position: 0px;
+@media (max-width: 480px){
+  .header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 410px;
   }
-  100%{
-      background-position: 5000px;
+   
+  .header__optionLineOne {
+    font-size: 17px;
+    font-weight: 1500
   }
-}
-
-.plane{
-  position: absolute;
-  bottom: 120px;
-  left: 0%;
-  width:160px ;
-  height: 48px;
-  background-image: url("../assets/flight.webp");
-  animation:  plane 5s infinite linear;
-}
-@keyframes plane{
-  0%{
-      left: -10%;
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-  100%{
-      left: 100%;
+  
+  .header__logo {
+    width: 50px;
+    margin: 0 20px;
+    margin-left: 10px;
   }
-
-}
-.train{
-  position: absolute;
-  bottom: 25px;
-  left: 0%;
-  width:1644px ;
+  
+   .logo3{
+    width: 100px;
   height: 50px;
-  background-image: url("../assets/htrain.webp");
-  animation:  train 10s infinite linear;
-}
-@keyframes train{
-  0%{
-      left: -10%;
+  } 
+  
+  .logo1{
+  width: 50px;
+  height: 40px;
+  margin-left: 50px;
+  } 
+  .logo2{
+    width: 50px;
+  height: 30px;
+  margin-right: 30px;
   }
-  100%{
-      left: 100%;
+  .logo4{
+    margin-right: 50px;
   }
-
-}
-
-
-.bus{
-  position: absolute;
-  bottom: 6px;
-  right: 0%;
-  width: 150px;
-  height: 58px;
-  background-image: url("../assets//bus.webp");
-  animation: bus 10s infinite linear;
-}
-@keyframes bus{
-  0%{
-      right: -10%;
-  }
-  100%{
-      right: 100%;
+  .list{
+    margin-left: 300px;
+    margin-top: 40px;
   }
 }
-.seaContainer{
-  position: relative;
-  overflow: hidden;
-  background-image: url("../assets/sea.png");
-  margin-top: none;
-  height:20vh;
-  padding: none;
-  background-position: 0px;
-  animation: sea 30s linear infinite;
-}
-@keyframes sea{
-  0%{
-      background-position: 0px;
-  }
-  100%{
-      background-position: 5000px;
-  }
-}
-
-.cruise{
-  position: absolute;
-  bottom: 20px;
-  left: 0%;
-  width: 337px;
-  height: 102px;
-  background-image: url("../assets/cruise.webp");
-  animation: cruise 10s infinite linear;
-}
-
-@keyframes cruise{
-  0%{
-      left: -10%;
-  }
-  100%{
-      left: 100%;
-  }
-} */

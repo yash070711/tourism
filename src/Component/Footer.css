@@ -37,3 +37,44 @@ color: white;
   .t1{
     font-size: 15px;
   }
+  @media (max-width: 480px){
+    .footer
+    {background: #012b72;
+      width: 100vw;
+    color: white;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 05spx;
+        padding: 10px;
+      }
+      
+      .grid-container > div {
+        text-align: center;
+        font-size: 30px;
+      }
+      .fb1{
+        font-size: 30px;
+        width: 40px;
+      }
+      .fl1{
+        width: 110px;
+        height: 40px;
+      }
+      .fl2{
+        margin-left: 05px;
+        margin-right: 05px;
+        width: 50px;
+      }
+      .about{
+        font-size: 30px;
+      }
+      .h1{
+        font-size: 20px;
+      }
+      .t1{
+        font-size: 15px;
+      }
+  }
