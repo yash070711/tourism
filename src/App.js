@@ -9,6 +9,13 @@ import { auth } from "./Component/firebase";
 import Login from "./Component/Login";
 import { useNavigate } from 'react-router-dom';
 import { signOut } from "firebase/auth";
+import Hotel from "./Component/Hotel";
+import Bus from "./Component/Bus";
+import Lounge from "./Component/Lounge";
+import Golden from "./Component/Golden Chariot";
+import Medical from "./Component/Medical";
+import Cruise from "./Component/Cruise";
+import Flight from "./Component/Flight";
 function App() {
   return (
     <div >
@@ -23,15 +30,15 @@ function App() {
  <Route path="/signup" element={<Signup/>}/> 
  <Route path="/log" element={<Log/>}/> 
  <Route path="/login" element={<Login/>}/> 
- {/* <Route path="/Abou" element={<Abou/>} />
-<Route path="/Pooja" element={<Pooja/>} />
-<Route path="/Rashifal1" element={<Rashifal1 />} />
-<Route path="/Contact" element={<Contact1 />} />
-<Route path="/Login" element={<Login/>} />
-<Route path="/Collaboration" element={<Collaboration />} />
-<Route path="/Sport" element={<Sport />} />
-<Route path="/Camp" element={<Camp />} />
-<Route path="/Checkout" element={<Checkout />} /> */} 
+  <Route path="/Hotel" element={<Hotel/>} />
+ <Route path="/bus" element={<Bus/>} />
+ <Route path="/lounge" element={<Lounge />} />
+<Route path="/Golden" element={<Golden />} />
+ <Route path="/Medical" element={<Medical/>} />
+ <Route path="/Cruise" element={<Cruise />} />
+ <Route path="/Flight" element={<Flight />} />
+{/* <Route path="/Camp" element={<Camp />} />
+<Route path="/Checkout" element={<Checkout />} />  */}
 
 
 

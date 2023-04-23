@@ -7,6 +7,8 @@ import Contact from './Contact'
 import Login from './Login'
 import Signup from './Signup'
 import Search from './Search'
+import Package from './Package'
+import Faq from './Faq'
 
 function Dashboard() {
   return (
@@ -14,10 +16,9 @@ function Dashboard() {
         <Header/>
         <Home/>
         <Icons/>
+        <Package/>
         <Contact/>
-      
         <Footer/>
-          
     </div>
   )
 }

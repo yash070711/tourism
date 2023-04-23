@@ -7,7 +7,7 @@ function Contact() {
   <div class="grid-container1">
     <div className='contact1'>
         <img 
-        className='img1'
+        className='img143'
         src={contact1}/>
     </div>
     <div>

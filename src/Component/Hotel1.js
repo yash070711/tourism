@@ -11,10 +11,13 @@ import {GiIndianPalace} from 'react-icons/gi'
 import {GiElephantHead} from 'react-icons/gi'
 import NearMeIcon from '@mui/icons-material/NearMe';
 import { Link } from 'react-router-dom';
-import "./Icons.css"
-function Icons() {
+import "./Hotel1.css"
+function Hotel1() {
+    const current = new Date();
+  const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
   return (
-    <div>
+    
+         <div>
         <div className="Home-Form-Section">
         <div className="container home-form-container">
           <div className="card-p">
@@ -27,7 +30,7 @@ function Icons() {
         </div>
       
       <div className="container-fluid nav-icon-container">
-          <ul className="nav-icons-wrap CenterIconBox">
+      <ul className="nav-icons-wrap CenterIconBox">
             <Link to="/Flight" className='link'>
           <li><MdFlight  className="liItem"/><p>Flights</p></li>
           </Link>
@@ -56,10 +59,10 @@ function Icons() {
         </div>
         <div class="grid-container">
         <div className='input'>
-          <input type='text' placeholder='Enter Origin/Destination City' className='text' /> 
-            <select class="con1" name="sector">
-              <option class="buttonsearch" value="Domestic">Domestic</option>
-          <option class="buttonsearch" value="International">International</option></select>
+          <input type='text' placeholder='Enter City ' className='text' /> 
+
+          <input type='datetime-local' placeholder='Checkin' className='text1' /> 
+          <input type='datetime-local' className='text1' /> 
           <button type='submit'  className='but'>Search <NearMeIcon className='ic'/></button>
           </div>
           </div>
@@ -68,4 +71,4 @@ function Icons() {
   )
 }
 
-export default Icons
+export default Hotel1

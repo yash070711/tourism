@@ -1,0 +1,12 @@
+.h21{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.img1{
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition:all;
+    
+}

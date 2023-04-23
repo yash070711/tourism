@@ -14,7 +14,8 @@ function Footer() {
     <>
     <div className='footer'>
 <div class="grid-container">
-  <div>Services
+  <div >
+  <p1 className='h1'>Services</p1>
     <ul>------<br/>
        <p className='h1' >Buses</p> 
        <p className='h1'>E-Catering </p>
@@ -26,7 +27,8 @@ function Footer() {
        <p className='h1'>Affiliate Registration</p>
     </ul>
   </div>
-  <div>Domestic Holidays
+  <div >
+  <p1 className='h1'>Domestic Holidays</p1>
   <ul>------<br/>
   <p className='h1'>Agra </p>  
   <p className='h1'>Bangalore</p>
@@ -38,7 +40,8 @@ function Footer() {
   <p className='h1'>Ladakh</p>
     </ul>
   </div>
-  <div>Pilgrimage Tours
+  <div >
+  <p1 className='h1'>Pilgrimage Tours</p1>
   <ul>------<br/>
   <p className='h1'>Kevadia </p>
   <p className='h1'>Puri</p> 
@@ -51,9 +54,9 @@ function Footer() {
   <p className='h1'>Varanasi</p>
     </ul>
 </div>  
-  <div>
+  <div >
     
-About Us
+<p1 className='h1'>About Us</p1>
 <ul className='about'>------<br/>
 <p className='h1'>Bharat Gaurav</p>
 <p className='h1'>Travel Advisory</p>
@@ -69,7 +72,7 @@ About Us
   </div>
     </div>
     <div class="grid-container">
-  <div> <p className='t1'>© 2023 IRCTC | All Right Reserved.</p>
+  <div> <p className='t1'>© 2023 Tourism | All Right Reserved.</p>
   <p className='t1'>Browser Support IE10 and IE11 and Chrome 5.0 and above Version</p></div>
   <div>
     <img 

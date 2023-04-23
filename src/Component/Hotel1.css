@@ -38,15 +38,23 @@ padding: 0;
     border-bottom: 1px solid #666;
     padding: 0;
 }
+.text1{
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding: 0;
+    margin-left: 20px;
+}
 .ic{
 }
-
 .link {
-  color: #FFF;
-}
-.link:hover {
-   color:gold
-}
+    color: #FFF;
+  }
+  .link:hover {
+     color:gold
+  }
 .but{
     width: 130px;
     height: 50px;

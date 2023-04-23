@@ -12,9 +12,11 @@ function Header() {
   return (
     <div className="header">
       {/* "https://www.vegamoontech.com/wp-content/uploads/2022/11/astrology-website-zodiac-chakra.png" */}
+      <Link to="/">
         <img
           className="header__logo"
           src={logo}/>
+          </Link>
       <div className="header__option1">
             <span className="header__optionLineOne">
               <img 
@@ -31,7 +33,7 @@ function Header() {
           </div>
          
           <div className="header__option">
-            <span className="header__optionLineOne"><b>ContactUs</b></span>
+            <span className="header__optionLineOne1"><b>ContactUs</b></span>
           </div>
           <Link to="/log">
           <div className="header__option">

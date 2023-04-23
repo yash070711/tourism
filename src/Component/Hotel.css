@@ -1,0 +1,15 @@
+.n{
+    margin-left: 50px;
+}
+.h1{
+   margin-top: 10px;
+}
+.h1:hover {
+   
+    opacity: 0.8;
+}
+.h1 {
+    padding: 10px;
+    transition: transform .2s;
+    margin: 0 auto;
+  }
